@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NameSorter", "NameSorter\NameSorter.csproj", "{7F7E0806-32A5-4D35-8854-528AAA8FFCA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NameSorterTest", "NameSorterTest\NameSorterTest.csproj", "{40DF819C-5A3B-4060-BA73-BC997ADCADF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{198C6C22-50B1-4E5D-91BD-6214DC36ECDA}"
+	ProjectSection(SolutionItems) = preProject
+		BuildTestRun.ps1 = BuildTestRun.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F7E0806-32A5-4D35-8854-528AAA8FFCA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7E0806-32A5-4D35-8854-528AAA8FFCA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7E0806-32A5-4D35-8854-528AAA8FFCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7E0806-32A5-4D35-8854-528AAA8FFCA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40DF819C-5A3B-4060-BA73-BC997ADCADF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40DF819C-5A3B-4060-BA73-BC997ADCADF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40DF819C-5A3B-4060-BA73-BC997ADCADF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40DF819C-5A3B-4060-BA73-BC997ADCADF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53C86B2B-C328-40B7-8252-0D1E2F682DE9}
+	EndGlobalSection
+EndGlobal
