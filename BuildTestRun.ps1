@@ -3,7 +3,7 @@
 $fileName = 'unsorted-names-list.txt';
 
 function Build {
-    cd $PSScriptRoot
+	cd $PSScriptRoot
 	dotnet build
 }
 
