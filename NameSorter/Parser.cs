@@ -15,7 +15,7 @@ namespace NameSorter
             string[] parts = fullName.Split(' ', StringSplitOptions.RemoveEmptyEntries);
             var firstName = string.Join(" ", parts.Take(parts.Length - 1));
             var lastName = parts.Last();
-            return new Name { FirstName = firstName, LastName = lastName };
+            return new Name(firstName, lastName);
         }
     }
 }
